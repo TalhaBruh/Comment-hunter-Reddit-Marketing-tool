@@ -6,23 +6,6 @@
 
 **InsightRed** is an LLM-powered tool adept at extracting the latest Reddit comments from subreddits, sorted by "Hot", and pinpointing users who exhibit potential interest in your project or product. It's a Reddit marketing tool to help you get your initial users for your product/project.
 
-This project was build for the ANARCHY October 2023 Hackathon. Checkout ANARCHY on their [website](https://github.com/anarchy-ai) and [github](https://anarchy.ai/welcome/why_anarchy).
-
-## Team Members:
-
-- [Mehmet Yilmaz](https://github.com/MehmetMHY)
-- [Ben Zimmerman](https://github.com/T3CH3Y)
-- [Ananya Aithal](https://github.com/mysteriousbug)
-
-## Demo:
-
-<div align="center">
-
-[![Demo Video](./assets/thumbnail.png)](https://youtu.be/xhKwnKxmg5k)
-
-*click the image to view the YouTube video or click here: https://youtu.be/xhKwnKxmg5k*
-
-</div>
 
 ## How To Setup
 
@@ -49,15 +32,15 @@ This project was build for the ANARCHY October 2023 Hackathon. Checkout ANARCHY 
 2. Clone this project and cd into it:
 
    ```
-   git clone git@github.com:MehmetMHY/insightred.git
-   cd insightred
+   git clone git@github.com:TalhaBruh/RedditCommentHunter.git
+   cd RedditCommentHunter
    ```
 
 3. For this tool, you will need to get these API keys:
 
    - Reddit API Keys:
      - Why? This is used to scrape data from Reddit
-     - How? Watch this [video](https://www.youtube.com/watch?v=FdjVoOf9HN4) from timestamps 00:00 to 03:05. You will also need to grab your Reddit account's username and password.
+     -You will also need to grab your Reddit account's username and password.
    - OpenAI API Key
      - Why? To use the GPT-4 LLM model. This can be changed in the config file but by default we use the GPT-4 model.
      - How? Go to [OpenAI's API Page](https://openai.com/blog/openai-api) to setup your account. After this, setup billing for the API by going to this link: https://platform.openai.com/account/billing/overview. With billing setup, create & get the API key from this link: https://platform.openai.com/account/api-keys.
@@ -120,26 +103,3 @@ This project was build for the ANARCHY October 2023 Hackathon. Checkout ANARCHY 
 
 8. When the CLI is running, fill out all the questions. You can skip some of those questions if allowed. After the questions are answered, the tool should output Reddit comments you can reply to for your project/product.
 
-## Credits:
-
-### Notable Outside Credit:
-
-- ChatGPT (GPT-4)
-- James Briggs (YouTuber)
-
-### LLM + RAG:
-
-- https://docs.pinecone.io/docs/metadata-filtering
-- https://www.youtube.com/watch?v=LhnCsygAvzY
-
-### Reddit Scrapper:
-
-- https://openai.com/blog/openai-api
-- https://docs.pinecone.io/docs/overview
-- https://www.reddit.com/r/redditdev/comments/14nbw6g/updated_rate_limits_going_into_effect_over_the/
-- https://www.reddit.com/prefs/apps
-- https://www.youtube.com/watch?v=FdjVoOf9HN4
-- https://medium.com/analytics-vidhya/scraping-reddit-data-using-reddit-api-3eba4bd7a56a
-- https://gist.github.com/davestevens/4257bbfc82b1e59eeec7085e66314215
-- https://github.com/praw-dev/praw
-- https://chat.openai.com/
